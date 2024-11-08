@@ -1,0 +1,38 @@
+/* Card Styles */
+.card-img-top {
+    height: 200px;
+    object-fit: cover;
+}
+
+.contact-info {
+    font-size: 0.9rem;
+    color: #666;
+}
+
+/* Card Hover Effects */
+.card {
+    transition: transform 0.2s, box-shadow 0.2s;
+}
+
+.card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+}
+
+/* Button Styles */
+.btn-group {
+    gap: 0.5rem;
+}
+
+/* Price Tag */
+.price-tag {
+    font-weight: bold;
+    color: #28a745;
+}
+
+/* No Results Message */
+.no-results {
+    text-align: center;
+    color: #6c757d;
+    padding: 2rem;
+}
